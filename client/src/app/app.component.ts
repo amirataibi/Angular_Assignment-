@@ -8,7 +8,7 @@ import { AuthService } from './util/auth.service';
 })
 
 export class AppComponent {
-  titre = 'ToDo List';
+  titre = 'Liste des travails a realiser';
 
   constructor(private authService:AuthService) {}
 
